@@ -124,4 +124,4 @@ np.savez("/home/pneuma/Documents/Data/Animal_Classification/image_class_train.np
 np.savez("/home/pneuma/Documents/Data/Animal_Classification/image_class_test.npz",
          image_test=X_test, label_test=y_test)
 np.savez("/home/pneuma/Documents/Data/Animal_Classification/image_class_val.npz",
-         image_test=X_val, label_test=y_val)
+         image_val=X_val, label_val=y_val)
